@@ -1,0 +1,110 @@
+{
+    "name": "BLTScannerInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "a16f60f6-4e83-4400-afa6-e173df121ca2",
+            "actions": [
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "0ad45600-27a2-4dec-819f-92501ffc3a93",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "38ad5902-c63d-40df-85ed-3545a84c4b5b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": []
+        },
+        {
+            "name": "UI",
+            "id": "51d2b400-664f-44cc-8296-ff30c705c066",
+            "actions": [
+                {
+                    "name": "Activate",
+                    "type": "Button",
+                    "id": "c862a7e8-3f6d-4a38-9510-ab54c6ad24bb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "NavigateMenuOption",
+                    "type": "Value",
+                    "id": "99767d0b-2411-4bd4-9d5a-7e53ebc2dcfb",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Cancel",
+                    "type": "Button",
+                    "id": "44421db8-ef0d-4a88-bd25-9dd86a2b5b9e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a18474cc-d0a0-4269-9651-8f2fb7b0c894",
+                    "path": "<MagicLeapController>/triggerButton",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a9abac9f-3799-45a6-86d5-9fda719f9461",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7110445-1359-46fb-8278-e7dfc2301358",
+                    "path": "<MagicLeapController>/touchpad1Position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NavigateMenuOption",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "967bc04a-6ae0-46f7-b819-6638a41cedc1",
+                    "path": "<MagicLeapController>/bumperButton",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
